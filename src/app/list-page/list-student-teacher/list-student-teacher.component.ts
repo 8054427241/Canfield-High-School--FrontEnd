@@ -37,6 +37,7 @@ studentListOfSchool(){
 
 getStaff(){
   this._school.getDataStaff().subscribe(data => {
+    console.log("staff ka data "  , data);
     this.staffList = data;
   });
 
